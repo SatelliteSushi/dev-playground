@@ -1,0 +1,29 @@
+body{
+    background-color: #050505;
+    padding: 0%;
+    margin: auto;
+}
+
+.topMenu{
+    background-color: rgb(14, 14, 14);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: rgb(141, 141, 141);
+}
+
+.leftItems{
+    margin-left: 50px;
+}
+
+.headerTitle{
+    color: aliceblue;
+    font-family: 'Pixeboy';
+    font-size: 30px;
+}
