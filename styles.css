@@ -6,7 +6,7 @@ body{
 
 .header{
     background-color: rgb(14, 14, 14);
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,11 +60,18 @@ body{
 .menuLink{
     font-family: 'Geom Graphic';
     font-weight: 500;
-    background: -webkit-linear-gradient(#ffffff, #949494);
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    background-color: rgb(148, 148, 148);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     margin-right: 50px;
-    
+    transition: transform 0.1s ease-in-out, text-shadow 0.2s ease-in-out, -webkit-text-fill-color 0.2s ease-in-out;
+}
+
+.menuLink:hover {
+    transform: scale(1.03);
+    text-shadow: 0 0 7px #e2e2e2; 
+    -webkit-text-fill-color: #e2e2e2;
 }
