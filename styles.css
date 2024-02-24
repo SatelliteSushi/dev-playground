@@ -6,26 +6,38 @@ body{
 
 .header{
     background-color: rgb(14, 14, 14);
-    height: 75px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-style: solid;
     border-bottom-width: 1px;
-    border-top-width: 0px;
+    border-top-width: 1px;
     border-right-width: 0px;
     border-left-width: 0px;
     border-color: rgb(141, 141, 141);
 }
 
 .headerLeftItems{
-    margin-left: 50px;
+    margin-left: 200px;
+    display: flex;
+
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    margin-right: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .headerTitle{
-    color: aliceblue;
-    font-family: 'Pixeboy';
+    color: rgb(230, 230, 230);
+    font-family: 'Geom Graphic';
     font-size: 30px;
+    font-weight: 500;
+    line-height: 100px;
 }
 
 .menu{
@@ -34,7 +46,7 @@ body{
     background-color: rgb(14, 14, 14);
     display: flex;
     justify-content: flex-start;
-    padding-left: 50px;
+    padding-left: 200px;
     align-items: center;
     border-style: solid;
     border-bottom-width: 1px;
@@ -46,9 +58,11 @@ body{
 
 
 .menuLink{
-    font-family: 'Oxanium';
+    font-family: 'Geom Graphic';
     font-weight: 500;
-    color: rgb(219, 219, 219);
+    background: -webkit-linear-gradient(#ffffff, #949494);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     font-size: 15px;
     margin-right: 50px;
