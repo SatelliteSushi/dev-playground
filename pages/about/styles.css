@@ -1,0 +1,77 @@
+body{
+    background-color: #050505;
+    padding: 0%;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(20, 25, 37);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: rgb(141, 141, 141);
+}
+
+.headerLeftItems{
+    margin-left: 200px;
+    display: flex;
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    margin-right: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: 45px;
+}
+
+.headerTitle{
+    color: rgb(230, 230, 230);
+    font-family: 'Geom Graphic';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.menu{
+    width: auto;
+    height: 50px;
+    background-color: rgb(13, 14, 17);
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+    align-items: center;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: rgb(141, 141, 141);
+}
+
+
+.menuLink{
+    font-family: 'Geom Graphic';
+    font-weight: 500;
+    background: -webkit-linear-gradient(#ffffff, #a7a7a7);
+    background-color: rgb(148, 148, 148);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 50px;
+    line-height: 42px;
+    transition: transform 0.1s ease-in-out, text-shadow 0.2s ease-in-out, -webkit-text-fill-color 0.2s ease-in-out;
+}
+
+.menuLink:hover {
+    transform: scale(1.05);
+    -webkit-text-fill-color: #e7e7e7;
+}
